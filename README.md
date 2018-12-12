@@ -13,14 +13,14 @@ Get weather data for list of locations in the United States.
 * Weather Description
 
 ### Requirements
-* Python 3
+* Python 3 (https://www.python.org/downloads/)
 
 ### Required external libraries
 * requests
 
 #### To install requests, you will need pip, and you can check the following link to determine how to install pip given your Operating System: https://www.makeuseof.com/tag/install-pip-for-python/
 
-Once you have pip,  you should be able to install requests using the following command:
+Once you have pip,  you should be able to install requests using the following command in your terminal/python interpreter:
 
 ```
 pip install requests 
