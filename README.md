@@ -35,7 +35,7 @@ For more information or alternative options, check out https://www.pythonforbegi
 
 ### Notes before running
 * Make sure that your locations file (e.g. locations.csv) is located in the same directory as weather_data.py
-* API key should be inserted instead of "???????????????" on line 9 of weather_data.py prior to running program 
+* API key should be inserted instead of "???????????????" on lines 11 and 21 of weather_data.py prior to running program 
 
 ### Running the program
 To run (assuming your locations are located in a csv file named "locations.csv"):
