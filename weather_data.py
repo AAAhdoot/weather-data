@@ -8,7 +8,7 @@ def read_and_write(file,output_file,errors_file):
 	file.readline()
 	for line in file:
 		name = line.strip()	
-		url = "http://api.openweathermap.org/data/2.5/weather?q={},US&APPID=??????????????&units=imperial".format(name)
+		url = "http://api.openweathermap.org/data/2.5/weather?q={},US&units=imperial&APPID=??????????????".format(name)
 		response = requests.get(url)
 		json_data = json.loads(response.text)
 		if json_data['cod'] == 200:
